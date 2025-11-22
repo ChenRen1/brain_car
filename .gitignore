@@ -7,9 +7,10 @@ __pycache__/
 
 # Environment
 .env
-.venv/
-brainlink_env/
-env/
+# 虚拟环境文件夹已从忽略列表中移除，以便上传到GitHub
+# .venv/
+# brainlink_env/
+# env/
 
 # IDE
 .idea/
