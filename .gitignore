@@ -1,8 +1,10 @@
 # Python
-__pycache__/
+# 取消忽略__pycache__/，以便上传到GitHub
+# __pycache__/
 *.py[cod]
 *$py.class
-*.so
+# 取消忽略.pyd文件，以便上传到GitHub
+# *.so
 .Python
 
 # Environment
