@@ -22,13 +22,15 @@ env/
 Thumbs.db
 
 # Logs
-log/
-*.log
+# 保留log文件夹，但忽略其中的日志文件
+!log/
+log/*.log
 
 # Data
-data/
-*.csv
-*.json
+# 保留data文件夹，但忽略其中的数据文件
+!data/
+data/*.csv
+data/*.json
 
 # Build
 build/

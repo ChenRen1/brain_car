@@ -1,0 +1,11 @@
+{
+  "ports": {
+    "brainlink_input_port": "COM8",
+    "car_output_port": "COM10"
+  },
+  "settings": {
+    "data_collection_interval": 0.1,
+    "control_interval": 0.5,
+    "log_level": "INFO"
+  }
+}
