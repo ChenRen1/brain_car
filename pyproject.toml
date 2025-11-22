@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "brainlink-sdk"
+version = "0.1.0"
+description = "BrainLink SDK for brainwave data collection and car control"
+authors = ["BrainLink Team <team@brainlink.com>"]
+readme = "README.md"
+packages = [{ include = "BrainLinkParser", from = "." }]
+
+[tool.poetry.dependencies]
+python = "==3.11.*"
+bleak = "^0.22.0"
+pyserial = "^3.5"
+numpy = "^1.26.0"
+scipy = "^1.12.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
