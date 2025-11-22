@@ -23,15 +23,15 @@ __pycache__/
 Thumbs.db
 
 # Logs
-# 保留log文件夹，但忽略其中的日志文件
+# 不再忽略log文件夹中的文件，以便全部上传
 !log/
-log/*.log
+# log/*.log
 
 # Data
-# 保留data文件夹，但忽略其中的数据文件
+# 不再忽略data文件夹中的文件，以便全部上传
 !data/
-data/*.csv
-data/*.json
+# data/*.csv
+# data/*.json
 
 # Build
 build/
